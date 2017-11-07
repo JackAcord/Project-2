@@ -1,0 +1,15 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Jack Acord - Project 2: Random Name Generator</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<p>Enter in how many names you want to get:</p>
+<input type="number" name="quantity" pattern="[1-10]">
+<input type="submit" onclick="newName()">
+<div id="nameDisplay"></div>
+<script src="js/main.js"></script>
+</body>
+</html>
