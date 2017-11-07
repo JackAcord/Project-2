@@ -1,0 +1,9 @@
+// This is the pool of names that can be displayed.
+var names = ["Alex", "Benjamin", "Charlie", "Derek", "Ellie", "Francine", "Georgina", "Harvey", "Irma", "Jeanne", "Katherine", "Linda"]
+
+function newName() {
+	// This is figuring which names to choose.
+	var randomNumber = Math.floor(Math.random() * (names.length));
+	// This is displaying the names chosen.
+	document.getElementById("nameDisplay").innerHTML = names[randomNumber];
+}
